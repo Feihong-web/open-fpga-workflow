@@ -1,0 +1,8 @@
+services:
+  fpga:
+    build:
+      context: .
+    image: open-fpga-workflow:local
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
