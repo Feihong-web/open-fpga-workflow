@@ -12,6 +12,8 @@ RUN apt-get update \
         verilator \
         yosys \
         nextpnr-ice40 \
+        nextpnr-ice40-chipdb \
+        fpga-icestorm-chipdb \
         fpga-icestorm \
     && rm -rf /var/lib/apt/lists/*
 
